@@ -1,0 +1,174 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Robot', sans-serif;
+    
+}
+body
+{
+    background-color: rgb(34, 204, 139);
+    margin: 0;
+    padding: 0;
+}
+
+
+.container
+{
+    /* border: 1px solid red; */
+    width: 40%;
+    margin: 1rem auto;
+    height: 95vh;
+    background-color: white;
+    border-radius: 10px;
+}
+.image
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid green; */
+}
+img
+{
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+form
+{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+    height: 65vh;
+    padding: 1rem;
+}
+form input
+{
+    margin-bottom: 1rem;
+}
+.name
+{
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+.f-name input
+{
+    width: 100%;
+    
+}
+
+input
+{
+     width: 100%;
+  padding: 7px 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.btn
+{
+    /* border:1px solid black ; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button
+{
+    width: 40%;
+    padding: .6rem;
+    
+    border-radius: 18px;
+    background-color: rgb(4, 202, 126);
+    border: none;
+    color: whitesmoke;
+    font-size:medium;
+    font-weight: 500;
+    
+}
+input:focus
+{
+     /* width: 100%;
+  padding: 7px 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black; */
+  /* width: 105%;
+  transition: 0.2s ease-in-out; */
+  outline: none;
+}
+.fa{
+    margin-right: 10px;
+    /* visibility: hidden; */
+    cursor: pointer;
+}
+
+
+
+.eye
+{
+    position:absolute;
+    margin-top: .7rem;
+    margin-left: -20px;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+#hide1
+{
+    display: none;
+    /* visibility: hidden; */
+    
+}
+#hide3
+{
+    display: none;
+    /* visibility: hidden; */
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .image
+  {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+ 
+ 
+  .container
+  {
+    
+    width: 100%;
+    /* margin: 1rem 1rem; */
+    height: 100vh;
+    padding: 1rem;
+    
+    
+  }
+  form
+  {
+    /* margin-top: 100px ; */
+    margin-top: 2.5rem;
+    width: 100%;
+    padding: 0;
+    
+  }
+  .name input{
+    width: 100%;
+  }
+
+}
+
+
+
+
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/6.2.0/css/bootstrap.min.css" />
+  <title>Form Validation</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="image">
+      <img src="image.jpg" alt="image" />
+    </div>
+    <form onsubmit=" return validate()" action="jaykr5.html">
+      <div class="name">
+        <div class="f-name">
+          <label>FIRST NAME</label><br />
+          <input type="text" id="firstName" />
+        </div>
+        <div class="l-name">
+          <label>LAST NAME</label><br />
+          <input type="text" id="lastName" />
+        </div>
+      </div>
+      <div class="username">
+        <label for="">USERNAME</label><br />
+        <input type="text" id="userName" />
+      </div>
+      <div class="email">
+        <label for="">EMAIL</label><br />
+        <input type="text" id="email" />
+      </div>
+      <div class="phone">
+        <label for="">PH. NUMBER</label><br />
+        <input type="number" id="phone" />
+      </div>
+      <div class="password">
+        <label for="">PASSWORD</label><br />
+        <input type="password" id="password" />
+        <span class="eye" onclick="password()">
+          <i id="hide1" class="fa fa-eye"></i>
+          <i id="hide2" class="fa fa-eye-slash"></i>
+        </span> 
+      </div>
+      <div class="cnf-password">
+        <label for="">CONFIRM PASSWORD</label><br />
+        <input type="password" id="cnfPassword" />
+         <span class="eye" onclick="cnfPassword()">
+          <i id="hide3" class="fa fa-eye"></i>
+          <i id="hide4" class="fa fa-eye-slash"></i>
+        </span> 
+      </div>
+      <div class="btn">
+        <button onclick="validate()" type="submit">SUBMIT</button>
+      </div>
+    </form>
+  </div>
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/7d557e2d8c.js" crossorigin="anonymous"></script>
+
+</html>
